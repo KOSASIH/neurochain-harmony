@@ -50,4 +50,17 @@ class TestSmartContract(unittest.TestCase):
         block = {
             "block_number": 1,
             "transactions": [
-                {"sender": "node-1", "receiver": "node-2",
+                {"sender": "node-2", "receiver": "node-3", "amount": 20.0, "data": "some other data"}
+            ]
+        }
+
+        # Execute the block using the smart contract
+        result = self.smart_contract.execute_block(block)
+
+        self.assertTrue(result)  # The block should be executed correctly
+
+    def tearDown(self):
+        pass
+
+if __name__ == "__main__":
+    unittest.main()
