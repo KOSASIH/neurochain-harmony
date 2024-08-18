@@ -112,4 +112,54 @@ if __name__ == '__main__':
     y = np.load('y.npy')
 
     # Create NeuroChain Harmony model
-    model = Neuro
+    model = NeuroChainHarmony(num_inputs=X.shape[1], num_hidden=128, num_outputs=10)
+
+    # Train the model
+    model.train(X, y, X, y, epochs=100)
+
+    # Evaluate the model
+    y_pred = model.predict(X)
+    print('Accuracy:', accuracy_score(y, y_pred))
+    print('Classification Report:')
+    print(classification_report(y, y_pred))
+    print('Confusion Matrix:')
+    print(confusion_matrix(y, y_pred))
+
+    # Use the model for quantum-inspired neural networks
+    from qiskit import QuantumCircuit, execute
+    from qiskit.providers.aer import AerSimulator
+
+    # Create a quantum circuit
+    qc = QuantumCircuit(5, 5)
+    qc.h(range(5))
+    qc.barrier()
+    qc.measure(range(5), range(5))
+
+    # Execute the circuit on a simulator
+    simulator = AerSimulator()
+    job = execute(qc, simulator, shots=1024)
+    result = job.result()
+    counts = result.get_counts(qc)
+
+    # Use the quantum circuit to generate random numbers
+    random_numbers = []
+    for outcome in counts:
+        random_numbers.append(int(outcome, 2))
+    random_numbers = np.array(random_numbers)
+
+    # Use the random numbers to initialize the weights of the neural network
+    model.model.apply(weights_init)
+    def weights_init(m):
+        if isinstance(m, nn.Linear):
+            m.weight.data = torch.tensor(random_numbers).float()
+
+    # Train the model again with the quantum-inspired weights
+    model.train(X, y, X, y, epochs=100)
+
+    # Evaluate the model again
+    y_pred = model.predict(X)
+    print('Accuracy:', accuracy_score(y, y, y_pred))
+    print('Classification Report:')
+    print(classification_report(y, y_pred))
+    print('Confusion Matrix:')
+    print(confusion_matrix(y, y_pred))
