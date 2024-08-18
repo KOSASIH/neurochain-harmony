@@ -1,0 +1,51 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuroChain Harmony Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#explorer">Explorer</a></li>
+        <li><a href="#training">Training</a></li>
+        <li><a href="#settings">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h1>Welcome to NeuroChain Harmony Explorer</h1>
+      <p>Explore the power of quantum-inspired neural networks</p>
+    </section>
+    <section id="explorer">
+      <h1>Neural Network Explorer</h1>
+      <div id="network-visualization"></div>
+      <button id="train-button">Train Network</button>
+    </section>
+    <section id="training">
+      <h1>Training Progress</h1>
+      <div id="training-progress"></div>
+    </section>
+    <section id="settings">
+      <h1>Settings</h1>
+      <form>
+        <label for="learning-rate">Learning Rate:</label>
+        <input type="number" id="learning-rate" value="0.001">
+        <br>
+        <label for="epochs">Epochs:</label>
+        <input type="number" id="epochs" value="100">
+        <br>
+        <button id="save-settings">Save Settings</button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
