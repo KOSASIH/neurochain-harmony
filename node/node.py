@@ -68,4 +68,27 @@ class Node:
         return f"Node (Private Key: {self.private_key}, Public Key: {self.public_key})"
 
 # Example usage:
-if __name
+if __name__ == '__main__':
+    node = Node()
+
+    # Generate a key pair
+    private_key_pem = node.get_private_key_pem()
+    public_key_pem = node.get_public_key_pem()
+
+    # Encrypt some data
+    data = b"Hello, World!"
+    encrypted_data = node.encrypt(data)
+
+    # Decrypt the data
+    decrypted_data = node.decrypt(encrypted_data)
+
+    # Derive a key
+    salt = os.urandom(16)
+    info = b"my_info"
+    derived_key = node.derive_key(salt, info)
+
+    print(f"Private Key PEM: {private_key_pem}")
+    print(f"Public Key PEM: {public_key_pem}")
+    print(f"Encrypted Data: {encrypted_data}")
+    print(f"Decrypted Data: {decrypted_data}")
+    print(f"Derived Key: {derived_key}")
