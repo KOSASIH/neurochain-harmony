@@ -152,3 +152,70 @@ class LWM2MDeviceDriver(DeviceDriver):
     def disconnect(self):
         self.lwm2m_client.close()
         self.connected = False
+    def read_data(self):
+        return self.lwm2m_client.read(device_config['resource'])
+
+    def write_data(self, data: bytes):
+        self.lwm2m_client.write(device_config['resource'], data)
+
+class HTTPDeviceDriver(DeviceDriver):
+    def __init__(self, device_config: dict):
+        super().__init__(DeviceType.HTTP, device_config)
+        self.http_client = HTTPClient(device_config['host'], device_config['port'])
+
+    def connect(self):
+        self.http_client.connect()
+        self.connected = True
+
+    def disconnect(self):
+        self.http_client.close()
+        self.connected = False
+
+    def read_data(self):
+        return self.http_client.get(device_config['resource'])
+
+    def write_data(self, data: bytes):
+        self.http_client.post(device_config['resource'], data)
+
+def create_device_driver(device_type: DeviceType, device_config: dict):
+    if device_type == DeviceType.SERIAL:
+        return SerialDeviceDriver(device_config)
+    elif device_type == DeviceType.MODBUS_TCP:
+        return ModbusTCPDeviceDriver(device_config)
+    elif device_type == DeviceType.MODBUS_RTU:
+        return ModbusRTUDeviceDriver(device_config)
+    elif device_type == DeviceType.MQTT:
+        return MQTTDeviceDriver(device_config)
+    elif device_type == DeviceType.CoAP:
+        return CoAPDeviceDriver(device_config)
+    elif device_type == DeviceType.LWM2M:
+        return LWM2MDeviceDriver(device_config)
+    elif device_type == DeviceType.HTTP:
+        return HTTPDeviceDriver(device_config)
+    else:
+        raise ValueError('Invalid device type')
+
+def main():
+    device_config = {
+        'device_type': DeviceType.MODBUS_TCP,
+        'host': '192.168.1.100',
+        'port': 1700,
+        'baudrate': 9600,
+        'resource': '/api/data'
+    }
+
+    device_driver = create_device_driver(device_config['device_type'], device_config)
+
+    if device_driver.connect():
+        print('Connected to device')
+        data = device_driver.read_data()
+        print('Read data:', data)
+        device_driver.write_data(b'\x01\x02\x03\x04')
+        print('Wrote data to device')
+        device_driver.disconnect()
+        print('Disconnected from device')
+    else:
+        print('Failed to connect to device')
+
+if __name__ == '__main__':
+    main()
