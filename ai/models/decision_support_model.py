@@ -76,4 +76,25 @@ class DecisionSupportModel:
         print("Neural Network Confusion Matrix:")
         print(confusion_matrix(y_test, y_pred))
 
-    def predict(self
+    def predict(self, model: str, data: pd.DataFrame) -> np.ndarray:
+        if model == "random_forest":
+            return self.rf_model.predict(data)
+        elif model == "xgboost":
+            return self.xgb_model.predict(data)
+        elif model == "catboost":
+            return self.cat_model.predict(data)
+        elif model == "lightgbm":
+            return self.lgbm_model.predict(data)
+        elif model == "neural_network":
+            return self.nn_model.predict(data) > 0.5
+        else:
+            raise ValueError("Invalid model specified")
+
+    def evaluate(self, model: str, data: pd.DataFrame, target: pd.Series) -> None:
+        y_pred = self.predict(model, data)
+        print("Model Evaluation:")
+        print("Accuracy:", accuracy_score(target, y_pred))
+        print("Classification Report:")
+        print(classification_report(target, y_pred))
+        print("Confusion Matrix:")
+        print(confusion_matrix(target, y_pred))
