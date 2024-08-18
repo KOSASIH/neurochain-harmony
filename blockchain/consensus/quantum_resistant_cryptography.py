@@ -64,5 +64,31 @@ class QuantumResistantCryptography:
         key = hkdf.derive(self.private_key.exchange(self.public_key))
         return key
 
-    def __str__(self):
-        return f"Quantum Resistant Cryptography (Private Key: {self.private_key
+     def __str__(self):
+        return f"Quantum Resistant Cryptography (Private Key: {self.private_key}, Public Key: {self.public_key})"
+
+# Example usage:
+if __name__ == '__main__':
+    crypto = QuantumResistantCryptography()
+
+    # Generate a key pair
+    private_key_pem = crypto.get_private_key_pem()
+    public_key_pem = crypto.get_public_key_pem()
+
+    # Encrypt some data
+    data = b"Hello, World!"
+    encrypted_data = crypto.encrypt(data)
+
+    # Decrypt the data
+    decrypted_data = crypto.decrypt(encrypted_data)
+
+    # Derive a key
+    salt = os.urandom(16)
+    info = b"my_info"
+    derived_key = crypto.derive_key(salt, info)
+
+    print(f"Private Key PEM: {private_key_pem}")
+    print(f"Public Key PEM: {public_key_pem}")
+    print(f"Encrypted Data: {encrypted_data}")
+    print(f"Decrypted Data: {decrypted_data}")
+    print(f"Derived Key: {derived_key}")
