@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "node_id": "node-1",
+      "node_type": "data_provider",
+      "data_contract_address": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "data_id": "weather_data",
+      "data_update_interval": 300, // 5 minutes
+      "data_update_url": "https://api.openweathermap.org/data/2.5/weather",
+      "data_update_params": {
+        "q": "London,UK",
+        "units": "metric",
+        "appid": "YOUR_API_KEY"
+      },
+      "node_private_key": "0x1234567890abcdef",
+      "node_public_key": "0x9876543210fedcba",
+      "node_encryption_key": "0x1234567890abcdef",
+      "node_decryption_key": "0x9876543210fedcba"
+    },
+    {
+      "node_id": "node-2",
+      "node_type": "data_consumer",
+      "data_contract_address": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "data_id": "weather_data",
+      "data_request_interval": 300, // 5 minutes
+      "node_private_key": "0x1234567890abcdef",
+      "node_public_key": "0x9876543210fedcba",
+      "node_encryption_key": "0x1234567890abcdef",
+      "node_decryption_key": "0x9876543210fedcba"
+    },
+    {
+      "node_id": "node-3",
+      "node_type": "validator",
+      "data_contract_address": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "node_private_key": "0x1234567890abcdef",
+      "node_public_key": "0x9876543210fedcba",
+      "node_encryption_key": "0x1234567890abcdef",
+      "node_decryption_key": "0x9876543210fedcba"
+    }
+  ],
+  "network_id": "network-1",
+  "consensus_algorithm": "neural_network_consensus",
+  "quantum_resistant_cryptography": true,
+  "neural_network_model": "models/neural_network_model.h5",
+  "neural_network_weights": "models/neural_network_weights.h5"
+}
