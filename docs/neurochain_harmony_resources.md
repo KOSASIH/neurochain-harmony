@@ -30,3 +30,10 @@ Welcome to the NeuroChain Harmony resources page! Here, you'll find a collection
 - NeuroChain Harmony SDKs: https://github.com/neurochain/neurochain-harmony-sdk
 - NeuroChain Harmony APIs: https://docs.neurochain.io/api
 - NeuroChain Harmony Integrations: https://neurochain.io/integrations
+
+## FAQs and Troubleshooting
+
+- NeuroChain Harmony FAQs: https://docs.neurochain.io/faqs
+- NeuroChain Harmony Troubleshooting: https://docs.neurochain.io/troubleshooting
+
+We hope you find these resources helpful in your journey with NeuroChain Harmony!
