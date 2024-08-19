@@ -4,7 +4,7 @@ Welcome to the NeuroChain Harmony resources page! Here, you'll find a collection
 ## Official Resources
 
 - NeuroChain Harmony Website: https://neurochain.io
-- NeuroChain Harmony GitHub: https://github.com/neurochain/neurochain-harmony
+- NeuroChain Harmony GitHub: https://github.com/KOSASIH/neurochain-harmony
 - NeuroChain Harmony Documentation: https://docs.neurochain.io
 
 ## Tutorials and Guides
@@ -27,7 +27,7 @@ Welcome to the NeuroChain Harmony resources page! Here, you'll find a collection
 
 ## Tools and Integrations
 
-- NeuroChain Harmony SDKs: https://github.com/neurochain/neurochain-harmony-sdk
+- NeuroChain Harmony SDKs: https://github.com/KOSASIH/neurochain-harmony-sdk
 - NeuroChain Harmony APIs: https://docs.neurochain.io/api
 - NeuroChain Harmony Integrations: https://neurochain.io/integrations
 
