@@ -30,3 +30,24 @@ We welcome contributions to NeuroChain Harmony! If you're interested in contribu
 2. Create a new branch: Create a new branch for your feature or fix using git checkout -b my-feature.
 3. Make changes: Make your changes to the code and commit them using git commit -m "My feature".
 4. Create a pull request: Create a pull request to merge your branch into the main repository.
+
+## License
+NeuroChain Harmony is licensed under the Apache License 2.0. See the LICENSE file for more information.
+
+## Contact
+If you have any questions or need help with NeuroChain Harmony, please don't hesitate to contact us:
+
+- Email: info@neurochain.io
+- Forum: NeuroChain Harmony Forum
+- Discord: NeuroChain Harmony Discord
+
+## Acknowledgments
+We would like to acknowledge the following contributors to NeuroChain Harmony:
+
+- All of contributors
+
+## Changelog
+See the CHANGELOG file for a list of changes to NeuroChain Harmony.
+
+## Roadmap
+See the ROADMAP file for a list of upcoming features and milestones for NeuroChain Harmony.
