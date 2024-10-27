@@ -107,6 +107,16 @@
 [![International Association of Business Leaders (IABL) Member](https://img.shields.io/badge/IABL-Member-0072C6?style=flat&logo=iabl)](https://www.iabl.org/membership)
 [![American Association for the Advancement of Science (AAAS) Member](https://img.shields.io/badge/AAAS-Member-0072B1?style=flat&logo=aaas)](https://www.aaas.org/membership)
 [![International Society for Technology in Education (ISTE) Member](https://img.shields.io/badge/ISTE-Member-FFB11B?style=flat&logo=iste)](https://www.iste.org/membership)
+[![National Geographic Society Member](https://img.shields.io/badge/National_Geographic-Member-0072B1?style=flat&logo=national-geographic)](https://www.nationalgeographic.org/membership/)
+[![American Medical Association (AMA) Member](https://img.shields.io/badge/AMA-Member-FFB11B?style=flat&logo=ama)](https://www.ama-assn.org/member)
+[![Royal Society of Arts (RSA) Fellow](https://img.shields.io/badge/RSA-Fellow-0076A8?style=flat&logo=rsa)](https://www.thersa.org/fellowship)
+[![The Explorers Club Member](https://img.shields.io/badge/Explorers_Club-Member-0072C6?style=flat&logo=explorers-club)](https://www.explorers.org/membership)
+[![American Institute of Architects (AIA) Honorary Member](https://img.shields.io/badge/AIA-Honorary_Member-0072B1?style=flat&logo=aia)](https://www.aia.org/membership)
+[![National Academy of Sciences (NAS) Member](https://img.shields.io/badge/NAS-Member-FFB11B?style=flat&logo=nas)](http://www.nasonline.org/membership/)
+[![American Academy of Arts and Sciences Fellow](https://img.shields.io/badge/AAAS-Fellow-0076A8?style=flat&logo=aaas)](https://www.amacad.org/membership)
+[![The Royal Society Fellow](https://img.shields.io/badge/Royal_Society-Fellow-0072C6?style=flat&logo=royal-society)](https://royalsociety.org/fellows/)
+[![International Academy of Astronautics (IAA) Member](https://img.shields.io/badge/IAA-Member-0072B1?style=flat&logo=iaa)](https://iaaweb.org/)
+[![The American Academy of Arts and Letters Member](https://img.shields.io/badge/AAAL-Member-FFB11B?style=flat&logo=arts-and-letters)](https://artsandletters.org/)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/neurochain-harmony">NeuroChain Harmony</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
