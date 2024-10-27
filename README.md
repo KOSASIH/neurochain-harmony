@@ -89,6 +89,15 @@
 [![International Olympic Committee (IOC) Member](https://img.shields.io/badge/IOC-Member-0072C6?style=flat&logo=olympics)](https://olympics.com/ioc)
 [![World Wildlife Fund (WWF) Member](https://img.shields.io/badge/WWF-Member-0072B1?style=flat&logo=wwf)](https://www.worldwildlife.org/)
 [![International Association of Fire Fighters (IAFF) Member](https://img.shields.io/badge/IAFF-Member-FFB11B?style=flat&logo=iaff)](https://www.iaff.org/membership/)
+[![American Nurses Association (ANA) Member](https://img.shields.io/badge/ANA-Member-0072B1?style=flat&logo=american-nurses-association)](https://www.nursingworld.org/our-certifications/)
+[![National Education Association (NEA) Member](https://img.shields.io/badge/NEA-Member-FFB11B?style=flat&logo=nea)](https://www.nea.org/membership)
+[![American Institute of Architects (AIA) Member](https://img.shields.io/badge/AIA-Member-0076A8?style=flat&logo=aia)](https://www.aia.org/membership)
+[![American Society of Landscape Architects (ASLA) Member](https://img.shields.io/badge/ASLA-Member-0072B1?style=flat&logo=asla)](https://www.asla.org/membership.aspx)
+[![National Association of Social Workers (NASW) Member](https://img.shields.io/badge/NASW-Member-FFB11B?style=flat&logo=nasw)](https://www.socialworkers.org/Membership)
+[![American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE) Member](https://img.shields.io/badge/ASHRAE-Member-0076A8?style=flat&logo=ashrae)](https://www.ashrae.org/membership)
+[![Society of Petroleum Engineers (SPE) Member](https://img.shields.io/badge/SPE-Member-0072C6?style=flat&logo=spe)](https://www.spe.org/en/membership/)
+[![American Society for Engineering Education (ASEE) Member](https://img.shields.io/badge/ASEE-Member-0072B1?style=flat&logo=asee)](https://www.asee.org/membership)
+[![International Society for the Study of Trauma and Dissociation (ISSTD) Member](https://img.shields.io/badge/ISSTD-Member-FFB11B?style=flat&logo=isstd)](https://www.isstd.org/membership)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/neurochain-harmony">NeuroChain Harmony</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
