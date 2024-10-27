@@ -98,6 +98,15 @@
 [![Society of Petroleum Engineers (SPE) Member](https://img.shields.io/badge/SPE-Member-0072C6?style=flat&logo=spe)](https://www.spe.org/en/membership/)
 [![American Society for Engineering Education (ASEE) Member](https://img.shields.io/badge/ASEE-Member-0072B1?style=flat&logo=asee)](https://www.asee.org/membership)
 [![International Society for the Study of Trauma and Dissociation (ISSTD) Member](https://img.shields.io/badge/ISSTD-Member-FFB11B?style=flat&logo=isstd)](https://www.isstd.org/membership)
+[![Institute of Electrical and Electronics Engineers (IEEE) Member](https://img.shields.io/badge/IEEE-Member-FFB11B?style=flat&logo=ieee)](https://www.ieee.org/membership/index.html)
+[![American Chemical Society (ACS) Member](https://img.shields.io/badge/ACS-Member-0076A8?style=flat&logo=acs)](https://www.acs.org/membership.html)
+[![National Society of Black Engineers (NSBE) Member](https://img.shields.io/badge/NSBE-Member-0072C6?style=flat&logo=nsbe)](https://www.nsbe.org/Membership.aspx)
+[![Society for Human Resource Management (SHRM) Member](https://img.shields.io/badge/SHRM-Member-0072B1?style=flat&logo=shrm)](https://www.shrm.org/membership/)
+[![American Association of University Professors (AAUP) Member](https://img.shields.io/badge/AAUP-Member-FFB11B?style=flat&logo=aaup)](https://www.aaup.org/membership)
+[![American Society of Civil Engineers (ASCE) Member](https://img.shields.io/badge/ASCE-Member-0076A8?style=flat&logo=asce)](https://www.asce.org/membership/)
+[![International Association of Business Leaders (IABL) Member](https://img.shields.io/badge/IABL-Member-0072C6?style=flat&logo=iabl)](https://www.iabl.org/membership)
+[![American Association for the Advancement of Science (AAAS) Member](https://img.shields.io/badge/AAAS-Member-0072B1?style=flat&logo=aaas)](https://www.aaas.org/membership)
+[![International Society for Technology in Education (ISTE) Member](https://img.shields.io/badge/ISTE-Member-FFB11B?style=flat&logo=iste)](https://www.iste.org/membership)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/neurochain-harmony">NeuroChain Harmony</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
